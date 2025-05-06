@@ -3,9 +3,16 @@ __Data__
 This data is from the UCI Machine Learning Repository and was collected via a survey on Amazon Mechanical Turk. The survey describes different driving scenarios, including the destination, current time, weather, and passenger, and then asks people whether they will accept the coupon if they are the driver. There are three possible answers people can choose from:
 
 “Right away”
+
 “Later, before the coupon expires”
+
 “No, I do not want the coupon”
-The first two responses are labeled as “Y = 1,” and the third is labeled as “Y = 0.” There are five different types of coupons: Less expensive restaurants (under $20), coffee houses, carryout and takeaway, bars, and more expensive restaurants ($20–$50).
+
+The first two responses are labeled as “Y = 1,” and the third is labeled as “Y = 0.” 
+
+There are five different types of coupons: 
+
+Less expensive restaurants (under $20), coffee houses, carryout and takeaway, bars, and more expensive restaurants ($20–$50).
 
 __File Name__ coupons.csv
 
@@ -64,4 +71,4 @@ Explore the acceptance rate of the coffee house coupon.
 
 •	People who went to the coffee house more than 0, but less than 3 times, who were single or married, between 21 and 26, who were alone or with friends and made between $12,500 and $62,499. They accepted the coupon at a rate of 10.6%.
 
-__Recommendation:__ Engage with people in their 20’s who got to a coffee house less than 3 times a month and make less than $63 K to give coupons to.
+__Recommendation:__ Engage with people in their 20’s who got to a coffee house less than 3 times a month and make less than $63 K to give coupons to. Gender has little impact on whether or no the coupon is accepted.
